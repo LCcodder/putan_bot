@@ -1,5 +1,4 @@
 import vk_api
-
 from cfg import token
 
 
@@ -7,12 +6,8 @@ from cfg import token
 session = vk_api.VkApi(token=token)
 vk = session.get_api()
 
-my_id = 513544698
-
-
 
 cur_id = input('potential putan id: ~ ' )
-
 
 
 
@@ -165,6 +160,8 @@ def su_us(id):
         putan_rating = putan_rating - putan_rating / 100 * 20
 
     print('.\n.\n.\n' + str(round(putan_rating * 10, 1)) + '% ----- normal putan value ~ 27%-51% \nvalidated options: ' + str(options) + ' out of 25 сircuits')
+
+
 
 
 
